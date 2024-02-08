@@ -23,7 +23,7 @@ This project serves as a basic example of creating a static website using HTML f
 
 ## Setup
 
-1. Clone this repository to your local machine:   git clone
+1. Clone this repository to your local machine:   git clone https://github.com/vaibhavkanawade/Travelopia.git
    
    
 ## Contact
