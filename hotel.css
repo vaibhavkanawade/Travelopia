@@ -1,0 +1,192 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+ul,
+nav {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+
+a {
+
+    color: black;
+
+    text-decoration: none;
+
+    opacity: 0.9;
+
+}
+
+
+
+a:hover {
+
+    opacity: 1;
+  
+
+}
+
+
+
+h1 {
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+    color: black;
+
+    margin: 0 0 1.5rem;
+
+}
+
+
+
+header {
+
+    position: absolute;
+
+    margin-top:30px;
+    z-index: 10;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    color: black;
+   background-color: #ffff;
+padding: 5px 0px 5px 0px;
+    
+
+}
+
+
+
+header nav ul {
+
+    display: flex;
+
+}
+header nav li {
+
+    margin:0 15px;
+   
+}
+.div-h1{
+   
+    width: 100%;
+    position: fixed;
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    color: #ffff;
+    background-color: white;
+    
+   padding: 5px 5px;
+}
+.div-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    /* margin: 300px; */
+    background-image: url('img/hotel1.jpg') ;
+      height: 700px;;
+      width: 100%;
+    opacity: 0.8 rgb(222, 81, 81);
+    background-size: cover;
+
+    /* overflow: hidden; */
+   
+}
+.div-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+}
+.input1{
+   padding: 65px 40px 6px 12px;
+   
+}
+#search{
+    padding: 10px 10px 10px;
+    border-radius: 50px;
+    background-color: orange;
+    border: gray;
+}
+#search:hover{
+    cursor: pointer;
+}
+.input2{
+    padding: 6px 40px 6px 12px;
+    flex-direction: row;
+ }
+ #date1{
+    padding: 10px 10px 10px 10px;
+ }
+ #date2{
+    padding: 10px 10px 10px 10px;
+ }
+ .input3{
+    padding: 6px 40px 6px 12px;
+ }
+ #adult{
+    padding: 10px 10px 10px 10px;
+ }
+.city-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: white;
+}
+.box{
+   /* border: 2px solid black;*/
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+  
+}
+.box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+/**box card**/
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px;
+}
